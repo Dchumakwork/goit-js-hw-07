@@ -22,3 +22,10 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.gallery{
+  flex-direction: row;
+  background-color: #fa9c9c;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
